@@ -20,7 +20,7 @@ div {
   animation-delay: -2s;
   animation-iteration-count: infinite;
   animation-direction: alternate;
-  background-image: url("551920464788848641.gif");
+  background-image: url("src/551920464788848641.gif");
 }
 
 .div2:hover {

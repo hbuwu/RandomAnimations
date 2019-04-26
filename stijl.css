@@ -1,3 +1,7 @@
+body {
+  overflow: hidden;
+}
+
 div {
   width: 10rem;
   height: 10rem;
@@ -94,7 +98,5 @@ div {
     transform: translate(0vw, 80vh);
     background-color: yellow;
   }
-
-
 
 }

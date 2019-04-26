@@ -1,0 +1,99 @@
+div {
+  width: 10rem;
+  height: 10rem;
+  background-color: rgb(0, 185, 255);
+  margin: 3rem auto;
+}
+
+.div1:hover {
+  animation-name: yeetnimation;
+  animation-duration: 5s;
+  animation-delay: 1s;
+  animation-timing-function: linear;
+  animation-fill-mode: forwards;
+  /* animation-play-state: paused; */
+}
+
+.div2 {
+  animation-name: yeetnimation2;
+  animation-duration: 5s;
+  animation-delay: -2s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+
+.div2:hover {
+  animation-play-state: paused;
+}
+
+.div3 {
+
+  position: absolute;
+  top: 0;
+  left: 0;
+  animation-name: yeetnimation3;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+
+}
+
+@keyframes yeetnimation {
+
+  50% {
+    background-color: blue;
+  }
+
+  70% {
+    background-color: yellow;
+
+  }
+
+  80% {
+    background-color: black;
+    transform: rotate(2000deg);
+    transform-origin: bottom right;
+  }
+
+  100% {
+    background-color: pink;
+  }
+
+}
+
+@keyframes yeetnimation2 {
+
+  50% {
+    background-color: blue;
+  }
+
+  70% {
+    background-color: yellow;
+  }
+
+  80% {
+    background-color: black;
+    transform: rotate(-2000deg) scale(2) translate(15rem, 30rem);
+    transform-origin: bottom left;
+  }
+
+}
+
+@keyframes yeetnimation3 {
+
+  25% {
+    transform: translate(93vw,0);
+  }
+
+  50% {
+    transform: translate(93vw,80vh);
+  }
+
+  75% {
+    transform: translate(0vw, 80vh);
+    background-color: yellow;
+  }
+
+
+
+}
